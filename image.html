@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Gallery</title>
+    <style>
+        /* CSS styles */
+        body {
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .gallery {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .gallery-title {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .gallery-images {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .gallery-images img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 0 10px;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .button {
+            background-color: #888;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <br>
+        <br>
+        <br>
+        <div class="gallery-title">
+            My Gallery
+        </div>
+
+        <div class="gallery-images">
+            <img src="images/img1.jpg" alt="Image 1">
+            <img src="images/img2.jpg" alt="Image 2">
+            <img src="images/img3.jpg" alt="Image 3">
+        </div>
+
+        <div class="button-container">
+            <a href="about.html" class="button">Back</a>
+        </div>
+    </div>
+</body>
+</html>
